@@ -16,12 +16,13 @@
   },
   "main": "index.js",
   "dependencies": {
-    "easy-table": "0.0.3"
+    "easy-table": "0.0.3",
+    "nan": "~0.3.2"
   },
   "engines": {
     "node": ">=0.6.0"
   },
   "scripts": {
-    "install": "node-gyp configure build"
+    "install": "node-gyp configure rebuild"
   }
 }
